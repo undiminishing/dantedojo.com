@@ -8,18 +8,35 @@
 body {
   background-color: #658cb5;
   font-family: 'Sobiscuit';
+  margin: 0;
+}
+
+.div2 {
+  text-align: center;
+  text-decoration: none;
+  padding: 1px 4px;
+  background-color: #4e7399;
+}
+
+li {
+  font-family: 'Sobiscuit';
+  text-align: center;
+  font-weight: 1px;
+  font-size: 20px;
+  overflow-wrap: break-word;
 }
 
 h1 {
   font-family: 'Sobiscuit';
   color: black;
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
   overflow-wrap: break-word;
 }
 
 p {
   font-family: 'Sobiscuit';
+  margin: 20px 100px;
   font-weight: 3px;
   text-align: center;
   font-size: 25px;

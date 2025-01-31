@@ -1,20 +1,38 @@
 <!DOCTYPE html>
 
 <html>
-    <title>dante dojo</title>
+    <title>dantedojo - home of the lester</title>
     <link rel="stylesheet" href="style.css">
 </html>
 
-<div class="div2">
-    <h1>dantedojo.com (under construction)</h1>
-</div>
+<head>
+  <div id="header1" class="div2">
+    <h1>dantedojo.com</h1>
+  </div>
+  <script>
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("header1").style.top = "-100px";
+      } else {
+        document.getElementById("header1").style.top = "0px";
+      }
+    }
+  </script>
+</head>
 
-
-
-    <p>welcome to dantedojo.com!</p>
+    <p>
+        <br>
+        <br>
+        <br>
+        <br>
+        welcome to dantedojo.com!
+    </p>
     <p>
         there's not really much in this main page, this domain is used to host various servers run by lester
-        
+        <br>
+        <br>
         here at dantedojo we host the following:
 
         <li>gmod servers</li>

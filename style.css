@@ -2,7 +2,7 @@
     font-family: 'Sobiscuit';
     src: url('Sobiscuit.ttf');
 }
-/* idk how this works but it does */
+
 
 
 body {
@@ -12,6 +12,11 @@ body {
 }
 
 .div2 {
+  position: fixed; /* new */
+  top: 0px; /* new */
+  z-index: 1; /* new */
+  width: 100%; /* new */
+  transition: top 0.3s;  /* new */
   text-align: center;
   text-decoration: none;
   padding: 1px 4px;
@@ -67,4 +72,3 @@ img {
     margin-right: auto;
 }
 
-/* idk how i didn't know css had classes... */
